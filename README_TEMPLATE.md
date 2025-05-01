@@ -1,48 +1,113 @@
-# n8n-nodes-_node-name_
+![Banner image](https://res.cloudinary.com/dhnaggn4g/image/upload/v1746099367/codeqr.io/integrations/n8n/N8N_Nodes_-_CodeQR_gm4ezz.png)
 
-This is an n8n community node. It lets you use _app/service name_ in your n8n workflows.
+<p align="center"><br>
+This Community Node is a 100% free solution created to simplify and assist the community in fully integrating and utilizing the main features offered by the <b>CodeQR API v1.0+</b> in their n8n projects. <b>Developed by Deusdete Ferreira.</b>
+</p>
+<br>
 
-_App/service name_ is _one or two sentences describing the service this node integrates with_.
+---
 
-[n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
+### ⚙️ Requirements
 
-[Installation](#installation)  
-[Operations](#operations)  
-[Credentials](#credentials)  <!-- delete if no auth needed -->  
-[Compatibility](#compatibility)  
-[Usage](#usage)  <!-- delete if not using this section -->  
-[Resources](#resources)  
-[Version history](#version-history)  <!-- delete if not using this section -->  
+To use this Community Node, you need:
 
-## Installation
+- **n8n** version **>= 1.54.4**
+- **Node.js** version **>= 18.10**
+- **Account on [CodeQR](https://app.codeqr.io/register)** and **API Key** (v1.0+)
 
-Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation.
+---
 
-## Operations
+### 📌 Available Features
 
-_List the operations supported by your node._
+#### Links
 
-## Credentials
+🖥️ Operations related to link shortening and management.
 
-_If users need to authenticate with the app/service, provide details here. You should include prerequisites (such as signing up with the service), available authentication methods, and how to set them up._
+<details>
+  <summary><b>List of operations</b></summary>
+  
+  <details>
+    <summary>✅ Create Short Link</summary>
+  </details>
+  <details>
+    <summary>✅ Get Link Information</summary>
+  </details>
+  <details>
+    <summary>✅ Update Link</summary>
+  </details>
+  <details>
+    <summary>✅ Delete Link</summary>
+  </details>
+</details>
 
-## Compatibility
+#### QR Codes
 
-_State the minimum n8n version, as well as which versions you test against. You can also include any known version incompatibility issues._
+🖼️ Features for generating and managing dynamic QR Codes.
 
-## Usage
+<details>
+  <summary><b>List of operations</b></summary>
+  
+  <details>
+    <summary>✅ Generate QR Code</summary>
+  </details>
+  <details>
+    <summary>✅ Get QR Code Data</summary>
+  </details>
+  <details>
+    <summary>✅ Update QR Code Destination</summary>
+  </details>
+  <details>
+    <summary>✅ Delete QR Code</summary>
+  </details>
+</details>
 
-_This is an optional section. Use it to help users with any difficult or confusing aspects of the node._
+---
 
-_By the time users are looking for community nodes, they probably already know n8n basics. But if you expect new users, you can link to the [Try it out](https://docs.n8n.io/try-it-out/) documentation to help them get started._
+### About CodeQR
 
-## Resources
+CodeQR is a SaaS platform designed to simplify and enhance your marketing and automation strategies. With it, you can:
 
-* [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
-* _Link to app/service documentation._
+- **Generate dynamic QR Codes**  
+  Create codes that can have their destination changed at any time, without the need for reprinting.
 
-## Version history
+- **Shorten URLs**  
+  Turn long links into short, easy-to-share URLs.
 
-_This is another optional section. If your node has multiple versions, include a short description of available versions and what changed, as well as any compatibility impact._
+- **Create personalized lead capture pages**  
+  Build customizable forms to collect data from your visitors.
 
+- **Track every interaction in real-time**  
+  View clicks, scans, and conversions in an intuitive dashboard.
 
+Our flexible and complete API also offers:
+
+- **Detailed tracking**: dashboards and reports with metrics on clicks, scans, and conversions.
+- **Customization**: adjust colors, logos, and layouts to align with your brand identity.
+- **Lead Capture**: integrate via webhook with CRMs or spreadsheets.
+- **Automation**: connect to tools like n8n, Make, and Zapier to create automated workflows.
+
+👉 Get started for free at [https://app.codeqr.io/register](https://app.codeqr.io/register), obtain your API Key, and turn data into insights to optimize results.
+
+---
+
+### 🤝 Contribution
+
+Contribute to the growth of this project! You can help in several ways:
+
+- **Pull Requests**: Submit improvements, fixes, or new features.
+- **Issues**: Report problems or suggest ideas.
+- **Documentation**: Help improve or expand the documentation.
+
+---
+
+### 📌 Top Contributors
+
+<a align="center" href="https://github.com/deusdete/n8n-nodes-codeqr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=deusdete/n8n-nodes-codeqr" />
+</a>
+
+---
+
+<div align="center">
+Developed with ❤️ by Deusdete Ferreira | <a href="https://codeqr.io" target="_blank">codeqr.io</a>
+</div>

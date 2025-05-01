@@ -4,10 +4,10 @@ import { codeqrApiRequest } from '../codeqrApiRequest';
 export async function retrieveQRCode(ef: IExecuteFunctions) {
 	try {
 		// Get the QR code ID from node parameters
-		const qrCodeId = ef.getNodeParameter('qrCodeId', 0) as string;
+		const qrcodeId = ef.getNodeParameter('qrcodeId', 0) as string;
 
 		// Make the API request
-		return await codeqrApiRequest.call(ef, 'GET', `/qrcodes/${qrCodeId}`);
+		return await codeqrApiRequest.call(ef, 'GET', `/qrcodes/${qrcodeId}`);
 	} catch (error) {
 		const errorData = {
 			success: false,

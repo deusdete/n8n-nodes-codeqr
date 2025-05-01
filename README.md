@@ -1,46 +1,113 @@
-![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![Banner image](https://res.cloudinary.com/dhnaggn4g/image/upload/v1746099367/codeqr.io/integrations/n8n/N8N_Nodes_-_CodeQR_gm4ezz.png)
 
-# n8n-nodes-starter
+<p align="center"><br>
+This Community Node is a 100% free solution created to simplify and assist the community in fully integrating and utilizing the main features offered by the <b>CodeQR API v1.0+</b> in their n8n projects. <b>Developed by Deusdete Ferreira.</b>
+</p>
+<br>
 
-This repo contains example nodes to help you get started building your own custom integrations for [n8n](n8n.io). It includes the node linter and other dependencies.
+---
 
-To make your custom node available to the community, you must create it as an npm package, and [submit it to the npm registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry).
+### ⚙️ Requirements
 
-## Prerequisites
+To use this Community Node, you need:
 
-You need the following installed on your development machine:
+- **n8n** version **>= 1.54.4**
+- **Node.js** version **>= 18.10**
+- **Account on [CodeQR](https://app.codeqr.io/register)** and **API Key** (v1.0+)
 
-* [git](https://git-scm.com/downloads)
-* Node.js and pnpm. Minimum version Node 18. You can find instructions on how to install both using nvm (Node Version Manager) for Linux, Mac, and WSL [here](https://github.com/nvm-sh/nvm). For Windows users, refer to Microsoft's guide to [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
-* Install n8n with:
-  ```
-  pnpm install n8n -g
-  ```
-* Recommended: follow n8n's guide to [set up your development environment](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/).
+---
 
-## Using this starter
+### 📌 Available Features
 
-These are the basic steps for working with the starter. For detailed guidance on creating and publishing nodes, refer to the [documentation](https://docs.n8n.io/integrations/creating-nodes/).
+#### Links
 
-1. [Generate a new repository](https://github.com/n8n-io/n8n-nodes-starter/generate) from this template repository.
-2. Clone your new repo:
-   ```
-   git clone https://github.com/<your organization>/<your-repo-name>.git
-   ```
-3. Run `pnpm i` to install dependencies.
-4. Open the project in your editor.
-5. Browse the examples in `/nodes` and `/credentials`. Modify the examples, or replace them with your own nodes.
-6. Update the `package.json` to match your details.
-7. Run `pnpm lint` to check for errors or `pnpm lintfix` to automatically fix errors when possible.
-8. Test your node locally. Refer to [Run your node locally](https://docs.n8n.io/integrations/creating-nodes/test/run-node-locally/) for guidance.
-9. Replace this README with documentation for your node. Use the [README_TEMPLATE](README_TEMPLATE.md) to get started.
-10. Update the LICENSE file to use your details.
-11. [Publish](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry) your package to npm.
+🖥️ Operations related to link shortening and management.
 
-## More information
+<details>
+  <summary><b>List of operations</b></summary>
+  
+  <details>
+    <summary>✅ Create Short Link</summary>
+  </details>
+  <details>
+    <summary>✅ Get Link Information</summary>
+  </details>
+  <details>
+    <summary>✅ Update Link</summary>
+  </details>
+  <details>
+    <summary>✅ Delete Link</summary>
+  </details>
+</details>
 
-Refer to our [documentation on creating nodes](https://docs.n8n.io/integrations/creating-nodes/) for detailed information on building your own nodes.
+#### QR Codes
 
-## License
+🖼️ Features for generating and managing dynamic QR Codes.
 
-[MIT](https://github.com/n8n-io/n8n-nodes-starter/blob/master/LICENSE.md)
+<details>
+  <summary><b>List of operations</b></summary>
+  
+  <details>
+    <summary>✅ Generate QR Code</summary>
+  </details>
+  <details>
+    <summary>✅ Get QR Code Data</summary>
+  </details>
+  <details>
+    <summary>✅ Update QR Code Destination</summary>
+  </details>
+  <details>
+    <summary>✅ Delete QR Code</summary>
+  </details>
+</details>
+
+---
+
+### About CodeQR
+
+CodeQR is a SaaS platform designed to simplify and enhance your marketing and automation strategies. With it, you can:
+
+- **Generate dynamic QR Codes**  
+  Create codes that can have their destination changed at any time, without the need for reprinting.
+
+- **Shorten URLs**  
+  Turn long links into short, easy-to-share URLs.
+
+- **Create personalized lead capture pages**  
+  Build customizable forms to collect data from your visitors.
+
+- **Track every interaction in real-time**  
+  View clicks, scans, and conversions in an intuitive dashboard.
+
+Our flexible and complete API also offers:
+
+- **Detailed tracking**: dashboards and reports with metrics on clicks, scans, and conversions.
+- **Customization**: adjust colors, logos, and layouts to align with your brand identity.
+- **Lead Capture**: integrate via webhook with CRMs or spreadsheets.
+- **Automation**: connect to tools like n8n, Make, and Zapier to create automated workflows.
+
+👉 Get started for free at [https://app.codeqr.io/register](https://app.codeqr.io/register), obtain your API Key, and turn data into insights to optimize results.
+
+---
+
+### 🤝 Contribution
+
+Contribute to the growth of this project! You can help in several ways:
+
+- **Pull Requests**: Submit improvements, fixes, or new features.
+- **Issues**: Report problems or suggest ideas.
+- **Documentation**: Help improve or expand the documentation.
+
+---
+
+### 📌 Top Contributors
+
+<a align="center" href="https://github.com/deusdete/n8n-nodes-codeqr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=deusdete/n8n-nodes-codeqr" />
+</a>
+
+---
+
+<div align="center">
+Developed with ❤️ by Deusdete Ferreira | <a href="https://codeqr.io" target="_blank">codeqr.io</a>
+</div>

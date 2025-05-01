@@ -4,7 +4,7 @@ import { codeqrApiRequest } from '../codeqrApiRequest';
 export async function updateQRCode(ef: IExecuteFunctions) {
 	try {
 		// Get node parameters
-		const qrCodeId = ef.getNodeParameter('qrCodeId', 0) as string;
+		const qrcodeId = ef.getNodeParameter('qrcodeId', 0) as string;
 		const updateFields = ef.getNodeParameter('updateFields', 0) as IDataObject;
 
 		const body: IDataObject = {};
@@ -75,7 +75,7 @@ export async function updateQRCode(ef: IExecuteFunctions) {
 		}
 
 		// Make the API request
-		return await codeqrApiRequest.call(ef, 'PUT', `/qrcodes/${qrCodeId}`, body);
+		return await codeqrApiRequest.call(ef, 'PUT', `/qrcodes/${qrcodeId}`, body);
 	} catch (error) {
 		const errorData = {
 			success: false,

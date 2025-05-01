@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-codeqr",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "Custom n8n nodes for integrating with the CodeQR platform, including dynamic QR code, short link creation, and lead capture workflows.",
 	"keywords": [
 		"n8n-community-node-package",
