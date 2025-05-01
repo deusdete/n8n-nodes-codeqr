@@ -1,5 +1,6 @@
 import { INodeProperties } from 'n8n-workflow';
 import { linkOperationsOptions } from './link.operations';
+import { qrcodeOperationsOptions } from './qrcode.operations';
 const resourcesOptions: INodeProperties = {
 	displayName: 'Resource',
 	name: 'resource',
@@ -18,4 +19,8 @@ const resourcesOptions: INodeProperties = {
 	default: 'link',
 };
 
-export const codeqrNodeProperties = [resourcesOptions, linkOperationsOptions];
+export const codeqrNodeProperties = [
+	resourcesOptions,
+	linkOperationsOptions,
+	qrcodeOperationsOptions,
+];
