@@ -90,6 +90,13 @@ Our flexible and complete API also offers:
 
 ---
 
+### 📖 Documentation
+
+For detailed documentation on how to use this node, visit our official documentation:  
+👉 [CodeQR Documentation](https://codeqr.mintlify.app/introduction)
+
+---
+
 ### 🤝 Contribution
 
 Contribute to the growth of this project! You can help in several ways:
